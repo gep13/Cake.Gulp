@@ -78,10 +78,7 @@ namespace Cake.Gulp
         [CakePropertyAlias(Cache = true)]
         public static GulpRunnerFactory Gulp(this ICakeContext context)
         {
-            if (context == null)
-            {
-                throw new ArgumentNullException(nameof(context));
-            }
+            ArgumentNullException.ThrowIfNull(context);
 
             return new GulpRunnerFactory(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools);
         }
