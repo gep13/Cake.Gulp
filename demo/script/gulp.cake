@@ -1,4 +1,4 @@
-#reference "../../BuildArtifacts/temp/_PublishedLibraries/Cake.Gulp/net6.0/Cake.Gulp.dll"
+#reference "../../BuildArtifacts/temp/_PublishedLibraries/Cake.Gulp/net8.0/Cake.Gulp.dll"
 
 // Self-contained exercise of Cake.Gulp's settings + alias surface.
 // Verifies the addin loads, the settings types can be constructed and
