@@ -9,6 +9,6 @@
     <Reference Include="Cake.Gulp">
       <HintPath>$(MSBuildProjectDirectory)\..\..\..\BuildArtifacts\temp\_PublishedLibraries\Cake.Gulp\net8.0\Cake.Gulp.dll</HintPath>
     </Reference>
-    <PackageReference Include="Cake.Frosting" Version="5.1.0" />
+    <PackageReference Include="Cake.Frosting" Version="6.2.0" />
   </ItemGroup>
 </Project>
